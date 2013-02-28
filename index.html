@@ -1,0 +1,120 @@
+<html class="-webkit-">
+    <head>
+        <meta charset="UTF-8">
+        <link href="http://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet" type="text/css">
+        <!--<link rel="stylesheet" href="/stylesheets/css/normalize.css" type="text/css">
+        <script src="/javascripts/libs/prefixfree.min.js" type="text/javascript">
+        <script type="text/javascript" style="display: none !important;">
+        function cleanJS(js) {
+            js = js.replace(/location(s+)?=/mi, '');
+            js = js.replace(/top.location.+=('|")/mi, '');
+            js = js.replace(/location.replace/mi, '');
+            js = js.replace(/.submit()/mi, '');
+            js = js.replace(/fromCharCode/mi, '');
+            return js;
+          }
+
+          _ogEval = window.eval;
+          window.eval = function(text) {_ogEval(cleanJS(text));};        
+          window.confirm = function(){};        
+          window.prompt  = function(){};        
+          window.open    = function(){};        
+          window.print   = function(){};        
+          window.innerWidth = window.outerWidth; // Fixes browser bug with it innerWidth report 0        
+          // Support hover state for mobile.        
+          window.ontouchstart = function(){};        
+        </script>
+        <link rel="stylesheet" href="" type="text/css">-->
+        <style type="text/css">
+          body{
+            background: #CCD0D4;            
+          }       
+
+          div.loader{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 700px;
+            height: 70px;
+            margin-left: -350px;
+            margin-top: -35px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Nunito', sans-serif;
+            font-size: 3.6875em;
+            color: transparent;
+            letter-spacing: 0.01em;
+          }
+
+          .loader span{
+            text-shadow:
+            0 0 2px rgba(204, 208, 212,0.9),
+            0 15px 25px rgba(0, 0, 0, 0.3),
+            0 -2px 3px rgba(0, 0, 0, 0.1),
+            0 -5px 10px rgba(255, 255, 255, 0.5),
+            0 5px 10px rgba(0, 0, 0, 0.3),
+            0 3px 4px rgba(255, 255, 255, 0.2),
+            0 0 20px rgba(255, 255, 255, 0.45);
+            -webkit-animation: loading 0.85s ease-in-out infinite alternate;
+          }
+
+          @-webkit-keyframes loading {
+          to {text-shadow:
+            0 0 2px rgba(204, 208, 212,0.2),
+            0 0 3px rgba(0, 0, 0, 0.02),
+            0 0 0 rgba(0, 0, 0, 0),
+            0 0 0 rgba(255, 255, 255, 0),
+            0 0 0 rgba(0, 0, 0, 0),
+            0 0 0 rgba(255, 255, 255, 0),
+            0 0 0 rgba(255, 255, 255, 0);}
+          }
+
+          .loader span:nth-child(2){
+            -webkit-animation-delay:0.10s;
+          }
+          .loader span:nth-child(3){
+            -webkit-animation-delay:0.20s;
+          }
+          .loader span:nth-child(4){
+            -webkit-animation-delay:0.30s;
+          }
+          .loader span:nth-child(5){
+            -webkit-animation-delay:0.40s;
+          }
+          .loader span:nth-child(6){
+            -webkit-animation-delay:0.50s;
+          }
+          .loader span:nth-child(7){
+            -webkit-animation-delay:0.60s;
+          }
+          .loader span:nth-child(8){
+            -webkit-animation-delay:0.70s;
+          }
+          .loader span:nth-child(9){
+            -webkit-animation-delay:0.80s;
+          }
+          .loader span:nth-child(10){
+            -webkit-animation-delay:0.90s;
+          }
+          .loader span:nth-child(11){
+            -webkit-animation-delay:1.00s;
+          }
+        </style>
+        <title>Satie Sharma</title>
+    </head>
+    <body>      
+      <div class="loader">
+          <span>C</span>
+          <span>O</span>
+          <span>M</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span>&nbsp;</span>
+          <span>S</span>
+          <span>O</span>
+          <span>O</span>
+          <span>N</span>
+      </div>
+    </body>
+</html>
